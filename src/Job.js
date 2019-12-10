@@ -1,11 +1,11 @@
 import React from 'react';
-import Typography from '@material-ui/core/Typography';
 
-function Job() 
+function Job({job}) 
 {
   return(
-  <div className="Job">
-
+  <div className={'single-job'}>
+    {job.title}
+    {job.company}
   </div>
   )
 }
